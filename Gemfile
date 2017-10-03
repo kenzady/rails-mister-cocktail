@@ -61,3 +61,5 @@ gem 'autoprefixer-rails'
 gem 'jquery-rails'
 
 gem "simple_form"
+
+gem 'figaro'
