@@ -3,7 +3,6 @@ Rails.application.routes.draw do
     resources :doses, only: [:create, :new]
   end
   resources :doses, only: [:destroy]
-  post "cocktails/:id/doses", to: 'doses#new'
 
   root 'cocktails#index'
 end

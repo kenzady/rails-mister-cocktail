@@ -6,7 +6,6 @@ class CocktailsController < ApplicationController
   end
 
   def show
-
   end
 
   def create
@@ -21,6 +20,8 @@ class CocktailsController < ApplicationController
   def new
     @cocktail = Cocktail.new
   end
+
+
 end
 
 private
@@ -30,5 +31,5 @@ def set_cocktail
 end
 
 def cocktail_params
-  params.require(:cocktail).permit(:name)
+  params.require(:cocktail).permit(:name, :photo, :photo_cache)
 end

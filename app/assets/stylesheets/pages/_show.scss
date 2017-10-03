@@ -1,0 +1,30 @@
+@import "components/alert";
+@import "components/navbar";
+@import "components/card";
+@import "components/banner";
+
+.round-image {
+  img {
+    border-radius: 50%;
+  }
+}
+
+.card-container {
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.delete-btn {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+  height: 90vh;
+}

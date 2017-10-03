@@ -63,3 +63,5 @@ gem 'jquery-rails'
 gem "simple_form"
 
 gem 'figaro'
+gem 'cloudinary'
+gem 'carrierwave', '~> 0.11.2'

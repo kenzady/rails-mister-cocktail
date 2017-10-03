@@ -1,0 +1,4 @@
+[0G[1] pry(main)> ..uite
+Error: there was a problem executing system command: .uite
+[2] pry(main)> 
+[2] pry(main)> Error: Input/output error - read

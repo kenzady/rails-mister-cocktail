@@ -2,7 +2,8 @@
 
 <%= simple_form_for(@cocktail) do |f| %>
   <%= f.input :name %>
-  <%= f.submit %>
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
+  <%= f.button :submit, class: "btn btn-success" %>
 <% end %>
 
-<p><%= link_to "Add a new cocktail", new_cocktail_path, class: "btn btn-success"%></p>
